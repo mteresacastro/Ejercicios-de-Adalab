@@ -1,0 +1,48 @@
+*{
+    padding:0;
+}
+
+.inline, .block, .inline-block, .none {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red; 
+}
+div.inline {
+    display: inline;
+}
+div.block {
+    display: block;
+}
+div.inline-block{
+    display: inline-block;
+}
+div.none {
+    display: none;
+}
+.ejercicio{
+    font-size: 20px;
+    color: purple;
+    border: 3px dotted cyan;
+    display: inline-block;
+    font-style: oblique;
+    font-weight: bold;
+}
+img{
+    width: 400px;
+    height: 300px;
+   
+}
+.imgejercicio5{
+    width: 100px;
+    height: 100px;
+}
+
+.ej5{
+    width: 100px;
+    height: 100px;
+    border: 5px dotted red;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}

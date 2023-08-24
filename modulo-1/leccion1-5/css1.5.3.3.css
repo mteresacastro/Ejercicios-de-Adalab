@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    background-color: #e0167010;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    box-sizing: border-box;
+    max-width: 1000px;
+  }
+  header h1 {
+    display: inline-block;
+  }
+  header ul {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;  
+  }
+  header ul li {
+    display: inline-block;
+  }
+  .logo1 {
+    color: #84318d;
+  }
+  .logo2 {
+    color: #e01670;
+  }
+  #logo::after {
+    content: "Desktop";
+    color: #888;
+  }
+  a {
+    color: #4a86e8;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  article {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+  }
+  th {
+    background: #14d9c480;
+    padding: 10px;
+  }
+  td {
+    padding: 10px;
+  }
+  tr:nth-child(odd) {
+    background: #14d9c440;
+  }
+  .message {
+    margin: 20px;
+  }
+  .balance {
+    background: #14d9c420;
+    padding: 10px;
+  }
+  button {
+    padding: 10px;
+    margin: 20px;
+    background: #4a86e880;
+    border: none;
+    border-radius: 10px;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+  /* Descomenta el bloque de abajo */
+
+  @media print {
+    button, a {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    body {
+      background: #e0167040;
+    }
+    #logo::after {
+      content: "Tablet";
+      color: #888;
+    }
+  }
+  @media screen and (max-width: 736px) {
+    body {
+      background-color: #e0167080;
+    }
+    #logo::after {
+      content: "Mobile+";
+      color: #888;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    body {
+      background-color: #e01670c0;
+    }
+    #logo::after {
+      content: "Mobile";
+      color: #888;
+    }
+  }
+  
